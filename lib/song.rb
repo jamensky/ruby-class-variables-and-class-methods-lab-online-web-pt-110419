@@ -17,12 +17,12 @@ class Song
   end
 
   def self.count
-    @@genres
-    #binding.pry
+    @@count
   end
 
   def self.artists
     return @@artists.uniq
+  #   binding.pry
   end
 
   def self.genres
@@ -30,7 +30,8 @@ class Song
   end
 
   def self.genre_count
-
+    @@genre_hash =
+    @@genres.each ||
   end
 
   def self.artist_count
